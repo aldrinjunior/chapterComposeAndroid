@@ -75,10 +75,3 @@ fun ImageCard(
         }
     }
 }
-
-@OptIn(ExperimentalMaterial3Api::class)
-@Preview
-@Composable
-fun preview() {
-    ImageCard(title = "Teste", description = "Teste")
-}
